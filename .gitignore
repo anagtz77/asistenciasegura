@@ -1,0 +1,22 @@
+# .gitignore  🔒
+# Secretos: NUNCA se suben
+.env
+*.pem
+secretos.h
+ 
+# Entorno virtual de Python
+venv/
+.venv/
+ 
+# Archivos que genera Python
+__pycache__/
+*.pyc
+ 
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+ 
+# Reportes que se generan al probar (PDF/Excel)
+exportados/
